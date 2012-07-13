@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sunergates_names">
+        <item>Βλαχογιάννης Ιωάννης</item>
+        <item>Γκαντάρας Ιωάννης</item>
+        <item>Δερβένης Χαράλαμπος</item>
+        <item>Ζεϊμπέκης Σταύρος</item>
+        <item>Καλογήρου Χάρης</item>
+        <item>Καραπιδάκης Ευάγγελος</item>
+        <item>Καραΐσκος Ζαφείριος</item>
+        <item>Καψούρας Ιωάννης</item>
+        <item>Κόκκινος Κωνσταντίνος</item>
+        <item>Κόπανος Χρήστος</item>
+        <item>Κατσίμπας Θεόδωρος</item>
+        <item>Λεπενιώτου Αλεξάνδρα</item>
+        <item>Λιόλιος Χαράλαμπος </item>
+        <item>Μάργαρης Αθανάσιος</item>
+        <item>Μαϊργιώτης Αντώνιος</item>
+        <item>Μπασδαβάνος Μαργαρίτης</item>
+        <item>Νεβράντζας Βάϊος - Γερμανός</item>
+        <item>Ξενάκης Αποστόλης</item>
+        <item>Παπακώστας Αρης</item>
+        <item>Σοφός Φίλιππος</item>
+        <item>Στυλιανός Τηλέμαχος</item>
+        <item>Σωμαράς Χρήστος</item>
+        <item>Ψωμιάδης Κωνσταντίνος</item>
+    </string-array>
+    <string-array name="sunergates_emails">
+        <item>jv@teilar.gr</item>
+        <item>kantaras@teilar.gr</item>
+        <item>dervenisch@teilar.gr</item>
+        <item>zeimpekis@teilar.gr</item>
+        <item>harkal@teilar.gr</item>
+        <item>karapidakis@teilar.gr</item>
+        <item>karaisko@teilar.gr</item>
+        <item>kapsouras@teilar.gr</item>
+        <item>k_kokkinos@teilar.gr</item>
+        <item>kopanos@teilar.gr</item>
+        <item>katsibas@teilar.gr</item>
+        <item>lepeniotou@teilar.gr</item>
+        <item>cliolios@teilar.gr</item>
+        <item>amarg@teilar.gr</item>
+        <item>mairgiotis@teilar.gr</item>
+        <item>basdavanos@teilar.gr</item>
+        <item>germanos@teilar.gr </item>
+        <item>axenakis@teilar.gr</item>
+        <item>ap@teilar.gr</item>
+        <item>fsof@teilar.gr</item>
+        <item>tilemaxos@teilar.gr</item>
+        <item>swmaras@teilar.gr</item>
+        <item>psomiadis@teilar.gr</item>
+    </string-array>
+    <string-array name="sunergates_epikoinonia">
+        <item>:: Η επικοινωνία με τους φοιτητές γίνεται μέσω email (jv@teilar.gr) ή/και τις ημέρες &amp; ώρες των μαθημάτων</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>Τετάρτη	16:00-18:00</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>:: Δευτέρα, Τρίτη, Τετάρτη 	2-8 (ώρες μαθήματος)	Η επικοινωνία με τους φοιτητές γίνεται μέσω email (germanos@teilar.gr) ή τις μέρες &amp; ώρες του εργαστηρίου.</item>
+        <item>null</item>
+        <item>null</item>
+        <item>:: Δευτέρα	8:00 - 20:00	Εργ-2 (8-12)\n Τ1 (14-16)\n UNIX (16-20)\n :: Τρίτη	10:00-16:00	Εργ-2</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+    </string-array>
+
+</resources>

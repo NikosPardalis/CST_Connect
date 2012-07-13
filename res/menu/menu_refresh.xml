@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+      <item
+        android:id="@+id/folder"
+         android:icon="@drawable/ic_menu_archive"
+        android:title="Download Folder"
+         android:showAsAction="ifRoom"/>
+    -->
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh_inverse"
+        android:showAsAction="ifRoom"
+        android:title="Refresh feed"/>
+
+</menu>

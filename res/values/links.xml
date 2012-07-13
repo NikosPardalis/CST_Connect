@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="links_names">
+        <item>Ηλεκτρονική γραμματεία dionysos</item>
+        <item>Πλατφόρμα e-class</item>
+        <item>Πλατφόρμα diogenis</item>
+        <item>Πλατφόρμα chronos</item>
+        <item>Webmail</item>
+        <item>Eudoxus</item>
+        <item>Ιστοσελίδα Βιβλιοθήκης</item>
+        <item>StudentGuru Larisas</item>
+        <item>LinuxTeam</item>
+        <item>ORACLE Academy</item>
+        <item>MSc in Network Computing</item>
+        <item>Πλατφόρμα τηλεκπαίδευσης (E-learning) </item>
+        <item>Πλατφόρμα Ήφαιστος</item>
+        <item>Pithos</item>
+        <item>Forum Φοιτητών</item>
+        <item>Facebook Page</item>
+        <item>Twitter</item>
+    </string-array>
+    <string-array name="links_urls">
+        <item>https://dionysos.teilar.gr/unistudent/</item>
+        <item>http://e-class.teilar.gr/</item>
+        <item>http://diogenis.teilar.gr/</item>
+        <item>http://cronos.teilar.gr/</item>
+        <item>https://myweb.teilar.gr/src/login.php</item>
+        <item>http://eudoxus.gr/</item>
+        <item>http://library.teilar.gr/</item>
+        <item>http://studentguru.gr/academics/communities/b/larissa/p/sglteam.aspx</item>
+        <item>http://linuxteam.teilar.gr/</item>
+        <item>http://www.cs.teilar.gr/CS/oracle.jsp</item>
+        <item>http://msc.cs.teilar.gr/MET/INFGR/</item>
+        <item>http://www.cs.teilar.gr/CS/e-learning.jsp</item>
+        <item>http://ifestos.teilar.gr/</item>
+        <item>https://pithos.grnet.gr/</item>
+        <item>http://forum.teilar.net/</item>
+        <item>https://www.facebook.com/cs.TEILAR</item>
+        <item>https://twitter.com/#!/TPT_TEILarissa</item>
+    </string-array>
+    <string-array name="links_images">
+        <item>com.cst.connect:drawable/dionysos</item>
+        <item>com.cst.connect:drawable/eclass</item>
+        <item>com.cst.connect:drawable/diogenis</item>
+        <item>com.cst.connect:drawable/chronos</item>
+        <item>com.cst.connect:drawable/webmail</item>
+        <item>com.cst.connect:drawable/eudoxus</item>
+        <item>com.cst.connect:drawable/library</item>
+        <item>com.cst.connect:drawable/student_guru</item>
+        <item>com.cst.connect:drawable/linuxteam</item>
+        <item>com.cst.connect:drawable/oracle_academy</item>
+        <item>com.cst.connect:drawable/msc</item>
+        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/ifestos</item>
+        <item>com.cst.connect:drawable/pithos</item>
+        <item>com.cst.connect:drawable/forum</item>
+        <item>com.cst.connect:drawable/fb</item>
+        <item>com.cst.connect:drawable/twitter</item>
+    </string-array>
+    <string-array name="links_description">
+        <item>Ηλεκτρονική γραμματεία dionysos</item>
+        <item>Πλατφόρμα e-class</item>
+        <item>Πλατφόρμα diogenis</item>
+        <item>Πλατφόρμα chronos</item>
+        <item>Webmail</item>
+        <item>Eudoxus</item>
+        <item>Ιστοσελίδα Βιβλιοθήκης</item>
+        <item>StudentGuru Larisas</item>
+        <item>LinuxTeam</item>
+        <item>ORACLE Academy</item>
+        <item>MSc in Network Computing</item>
+        <item>Πλατφόρμα τηλεκπαίδευσης (E-learning) </item>
+        <item>Πλατφόρμα Ήφαιστος</item>
+        <item>Pithos</item>
+        <item>Forum Φοιτητών</item>
+        <item>Facebook Page</item>
+        <item>Twitter</item>
+    </string-array>
+
+</resources>

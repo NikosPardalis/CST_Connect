@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CST Connect</string>
+    <string name="map_api_key">0BdPSCRMnTmwj8aUcabpg1IWYynI4pZmMo4Nx5A</string>
+    <string name="map_debug_key">0BdPSCRMnTmzUxyHafGd1cgLbF3cpPBiumIqDAw</string>
+    <string name="changelog_full_title">Changelog</string>
+    <string name="changelog_title">Τι νέο υπάρχει:</string>
+    <string name="changelog_ok_button">Κλείσιμο</string>
+    <string name="changelog_show_full">Πλήρες</string>
+
+    
+    <string name="menu_item_search_action_hint">Your Search Query</string>
+<string name="menu_item_search_action_menu_text">Search</string>
+
+    <string-array name="Examina_xeimerino_list">
+        <item>Εξάμηνο Α</item>
+        <item>Εξάμηνο Γ</item>
+        <item>Εξάμηνο Ε</item>
+        <item>Εξάμηνο Ζ</item>
+    </string-array>
+    <string-array name="Examina_earino_list">
+        <item>Εξάμηνο Β</item>
+        <item>Εξάμηνο Δ</item>
+        <item>Εξάμηνο ΣΤ</item>
+    </string-array>
+    
+    <string-array name="monimoi_teachers_names">
+        <item>Αδάμ Γεώργιος</item>
+        <item>Βέντζας Δημήτριος</item>
+        <item>Βλάχος Βασίλειος</item>
+        <item>Γκαράνη Γεωργία</item>
+        <item>Ιατρέλλης Όμηρος</item>
+        <item>Κακαρόντζας Γεώργιος</item>       
+        <item>Καρέτσος Γεώργιος</item>
+        <item>Κόκκορας Φώτης</item>
+        <item>Κουτσιαρής Αριστοτέλης</item>
+        <item>Λιόλιος Νικόλαος</item>
+        <item>Μπάτης Νικόλαος</item>
+        <item>Πετρέλλης Νικόλαος</item>
+        <item>Σάββας Ηλίας</item>
+        <item>Σαμαράς Νικόλαος</item>
+        <item>Τσουκάτος Κωνσταντίνος</item>
+        <item>Χαϊκάλης Κωνσταντίνος</item>
+        <item>Χαρτώνας Χρυσάφης</item>
+    </string-array>
+    
+    <string-array name="monimoi_teachers_emails">
+        <item>gadam@teilar.gr</item>
+        <item>ventzas@teilar.gr</item>
+        <item>vsvlachos@teilar.gr</item>
+        <item>garani@teilar.gr</item>
+        <item>iatrellis@teilar.gr</item>
+        <item>gkakaron@teilar.gr</item>     
+        <item>karetsos@teilar.gr</item>
+        <item>fkokkoras@teilar.gr</item>
+        <item>ariskout@teilar.gr</item>
+        <item>nliolios@teilar.gr</item>
+        <item>batis@teilar.gr</item>
+        <item>npetrellis@teilar.gr</item>
+        <item>savvas@teilar.gr</item>
+        <item>nsamaras@teilar.gr</item>
+        <item>ktsouk@teilar.gr</item>
+        <item>kchaikalis@teilar.gr</item>
+        <item>hartonas@teilar.gr</item>
+        
+        </string-array>
+    
+    <string-array name="Teachers">
+        <item>Αδάμ Γεώργιος</item>
+        <item>Βέντζας Δημήτριος</item>
+        <item>Βλάχος Βασίλειος</item>
+        <item>Γκαράνη Γεωργία</item>
+        <item>Ιατρέλλης Όμηρος</item>
+        <item>Κακαρόντζας Γεώργιος</item>  
+        <item>Καρέτσος Γεώργιος</item>
+        <item>Κόκκορας Φώτης</item>
+        <item>Κουτσιαρής Αριστοτέλης</item>
+        <item>Λιόλιος Νικόλαος</item>
+        <item>Μπάτης Νικόλαος</item>
+        <item>Πετρέλλης Νικόλαος</item>
+        <item>Σάββας Ηλίας</item>
+        <item>Σαμαράς Νικόλαος</item>
+        <item>Τσουκάτος Κωνσταντίνος</item>
+        <item>Χαϊκάλης Κωνσταντίνος</item>
+        <item>Χαρτώνας Χρυσάφης</item>
+        <item>Βλαχογιάννης Ιωάννης</item>
+        <item>Γκαντάρας Ιωάννης</item>
+        <item>Δερβένης Χαράλαμπος</item>
+        <item>Ζεϊμπέκης Σταύρος</item>
+        <item>Καλογήρου Χάρης</item>
+        <item>Καραπιδάκης Ευάγγελος</item>
+        <item>Καραΐσκος Ζαφείριος</item>
+        <item>Καψούρας Ιωάννης</item>
+        <item>Κόκκινος Κωνσταντίνος</item>
+        <item>Κόπανος Χρήστος</item>
+        <item>Κατσίμπας Θεόδωρος</item>
+        <item>Λεπενιώτου Αλεξάνδρα</item>
+        <item>Λιόλιος Χαράλαμπος </item>
+        <item>Μάργαρης Αθανάσιος</item>
+        <item>Μαϊργιώτης Αντώνιος</item>
+        <item>Μπασδαβάνος Μαργαρίτης</item>
+        <item>Νεβράντζας Βάϊος - Γερμανός</item>
+        <item>Ξενάκης Αποστόλης</item>
+        <item>Παπακώστας Αρης</item>
+        <item>Σοφός Φίλιππος</item>
+        <item>Στυλιανός Τηλέμαχος</item>
+        <item>Σωμαράς Χρήστος</item>
+        <item>Ψωμιάδης Κωνσταντίνος</item>
+    </string-array>
+    <string-array name="Emails">
+        <item>gadam@teilar.gr</item>
+        <item>ventzas@teilar.gr</item>
+        <item>vsvlachos@teilar.gr</item>
+        <item>garani@teilar.gr</item>
+        <item>iatrellis@teilar.gr</item>
+        <item>gkakaron@teilar.gr</item>    
+        <item>karetsos@teilar.gr</item>
+        <item>fkokkoras@teilar.gr</item>
+        <item>ariskout@teilar.gr</item>
+        <item>nliolios@teilar.gr</item>
+        <item>batis@teilar.gr</item>
+        <item>npetrellis@teilar.gr</item>
+        <item>savvas@teilar.gr</item>
+        <item>nsamaras@teilar.gr</item>
+        <item>ktsouk@teilar.gr</item>
+        <item>kchaikalis@teilar.gr</item>
+        <item>hartonas@teilar.gr</item>
+        <item>jv@teilar.gr</item>
+        <item>kantaras@teilar.gr</item>
+        <item>dervenisch@teilar.gr</item>
+        <item>zeimpekis@teilar.gr</item>
+        <item>harkal@teilar.gr</item>
+        <item>karapidakis@teilar.gr</item>
+        <item>karaisko@teilar.gr</item>
+        <item>kapsouras@teilar.gr</item>
+        <item>k_kokkinos@teilar.gr</item>
+        <item>kopanos@teilar.gr</item>
+        <item>katsibas@teilar.gr</item>
+        <item>lepeniotou@teilar.gr</item>
+        <item>cliolios@teilar.gr</item>
+        <item>amarg@teilar.gr</item>
+        <item>mairgiotis@teilar.gr</item>
+        <item>basdavanos@teilar.gr</item>
+        <item>germanos@teilar.gr </item>
+        <item>axenakis@teilar.gr</item>
+        <item>ap@teilar.gr</item>
+        <item>fsof@teilar.gr</item>
+        <item>tilemaxos@teilar.gr</item>
+        <item>swmaras@teilar.gr</item>
+        <item>psomiadis@teilar.gr</item>
+    </string-array>
+
+    <string name="appInfo">Επίσημη εφαρμογή για κινητά Android του τμήματος Πληροφορικής και Τηλεπικοινωνιών ΤΕΙ Λάρισας.
+					\n\nΗ εφαρμογή παρέχει  ανακοινώσεις, νέα, και άλλες πληροφορίες χρήσιμες για τους φοιτητές του τμήματος.Σε περίπτωση που φύγει η προστεθεί κάποιο μέλος στο εκπαιδευτικό προσωπικό και δεν γίνει αντιληπτό, στείλτε μου ένα email για να γίνει προσθήκη των στοιχείων του στις λίστες.
+					\n\nΓια να στείλετε τις εντυπώσεις/γνώμες/παρατηρήσεις σας ή ότι άλλο θεωρείτε χρήσιμο, πατήστε στο κουμπί Feedback!
+					\n\nΔημιουργός εφαρμογής: Νίκος Παρδάλης</string>
+    <string name="DataFailureWarning">"Δεν υπάρχει διαθέσιμη σύνδεση δεδομένων.Παρακαλώ συνδεθείτε και ξαναπροσπαθείστε."</string>
+    <string name="DownloadsDirectoryPath">"/sdcard/CST Connect Downloads/"</string>
+    <string name="plirofories_tmimatos">Το Τμήμα Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών του ΤΕΙ Λάρισας ιδρύθηκε με το Προεδρικό Διάταγμα 200/1999 (ΦΕΚ 179 06/09/99), με πρώτο εξάμηνο λειτουργίας το Φθινοπωρινό εξάμηνο του 1999, στα πλαίσια της ενέργειας «Διεύρυνση της Τριτοβάθμιας Εκπαίδευσης» του Επιχειρησιακού Προγράμματος Εκπαίδευσης και Αρχικής Επαγγελματικής Κατάρτισης του 2ου Κοινοτικού Πλαισίου Στήριξης (2ο ΚΠΣ).
+    \n\nΤο Τμήμα Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών προχώρησε σε αναβάθμιση και βελτίωση του προγράμματος σπουδών με την υποστήριξη περισσότερων μαθημάτων επιλογής υποχρεωτικών και την online υποστήριξη της εκπαιδευτικής διαδικασίας (e-learning) στα πλαίσια του έργου του Επιχειρησιακού Προγράμματος Εκπαίδευσης και Αρχικής Επαγγελματικής Κατάρτισης «Ενίσχυση Σπουδών Πληροφορικής στο ΤΕΙ Λάρισας» που υλοποιείται με τη συγχρηματοδότηση της Ευρωπαϊκής Ένωσης (Ευρωπαϊκό Κοινωνικό Ταμείο) και Εθνικούς πόρους.
+    \n\nΜε την ολοκλήρωση των σπουδών τους οι Πτυχιούχοι του Τμήματος Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών αποκτούν τις απαραίτητες, σύμφωνα με διεθνή πρότυπα, θεωρητικές και τεχνολογικές γνώσεις και δεξιότητες ώστε να μπορούν, με επιτυχία στις ιδιαίτερα ανταγωνιστικές συνθήκες του αντικειμένου τους:
+    \n\n1. να επιδιώξουν Μεταπτυχιακές Σπουδές σε Τριτοβάθμια Εκπαιδευτικά Ιδρύματα του Εσωτερικού ή Εξωτερικού,
+    \n2. να επιδιώξουν Μεταπτυχιακές Σπουδές σε Τριτοβάθμια Εκπαιδευτικά Ιδρύματα του Εσωτερικού ή Εξωτερικού,
+    \n3. να εργασθούν σε όλους τους τομείς του γνωστικού αντικειμένου του Τμήματός τους, είτε ως αυτοαπασχολούμενοι, είτε ως υπεύθυνοι ή στελέχη σχετικών ιδιωτικών ή δημοσίων επιχειρήσεων, οργανισμών και υπηρεσιών. Ειδικότερα ο Πτυχιούχος του Τμήματος Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών απασχολείται ως:
+    \n\n* Προγραμματιστής (Software Engineer), τόσο σε υπηρεσίες Μηχανογράφησης του ιδιωτικού ή δημόσιου τομέα, όσο και σε εμπορικές επιχειρήσεις παραγωγής και διάθεσης λογισμικού διαφόρων τύπων και εφαρμογών.
+    \n* Σχεδιαστής, Αναλυτής και Μηχανικός Υπολογιστικών Συστημάτων (Computer Systems Engineer)
+    \n* Σχεδιαστής, Αναλυτής και Διαχειριστής Δικτύων Πληροφορικών Συστημάτων και Τηλεπικοινωνιών (Network and Telecommunications Engineer/Administrator)</string>
+    <string name="plirofories_mitrwo">\n\n* Βεβαίωσης σπουδών
+            \n* Επίσημης αναλυτικής βαθμολογίας
+            \n* Πιστοποιητικού στρατολογικής χρήσης
+            \n* Βεβαίωσης προϋποθέσεων για έναρξη πρακτικής άσκησης
+            \n* Πιστοποιητικού σπουδαστικής κατάστασης/εγγραφών
+            \n* Βεβαίωσης με εκκρεμότητα σπουδών
+            \n* Πιστοποιητικού στεγαστικού επιδόματος
+            \n\n2. Για τα παρακάτω αιτήματα η υποβολή θα γίνεται Αποκλειστικά με Έντυπη κατάθεση αιτήματος στο Ενιαίο Μητρώο Σπουδαστών και παραλαβή από το Ενιαίο Μητρώο Σπουδαστών:
+            \n* Πιστοποιητικού περάτωσης σπουδών ( έκδοσης πτυχίου)
+            \n* Πιστοποιητικού διαγραφής
+            \n* Έκδοσης σπουδαστικού βιβλιαρίου υγειονομικής περίθαλψης
+            \n* Αίτηση για αναστολή σπουδών
+            \n\n3. Για τα παρακάτω αιτήματα η υποβολή θα γίνεται Αποκλειστικά με Έντυπη κατάθεση αιτήματος στο αντίστοιχο Τμήμα που ανήκει ο κάθε σπουδαστής:
+            \n\n* Αίτηση για έγκριση θέματος / παράτασης πτυχιακής εργασίας
+            \n* Αίτηση για έγκριση θέσης πρακτικής άσκησης [υπόψη επιτροπής Πρακτικής Άσκησης]
+            \n* Αίτηση για αναγνώριση μαθημάτων από Erasmus, από μετεγγραφή και από κατάταξη 
+            \n* Αίτηση για χορήγηση δικαιώματος προφορικής εξέτασης 
+            \n\nΥπενθυμίζουμε τους σπουδαστές του ΤΕΙ Λάρισας για την ηλεκτρονική υποβολή των αιτημάτων τους, όταν βρίσκονται στο χώρο του ΤΕΙ Λάρισας, μπορούν να χρησιμοποιούν τους διαθέσιμους υπολογιστές:
+            \n\n- Στην Κεντρική Βιβλιοθήκη
+            \n- Στο ελεύθερο εργαστήριο [ισόγειο σχολής ΣΔΟ]
+            \n- Στο ελεύθερο εργαστήριο [Α΄ όροφος σχολής ΣΤΕΓ] και σε όποιο εργαστήριο πληροφορικής είναι ελεύθερο (σε ώρες μη διεξαγωγής μαθημάτων)</string>
+
+</resources>

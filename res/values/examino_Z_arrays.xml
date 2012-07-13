@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="Examino_Z_title">
+        <item>Ευρυζωνικά Δίκτυα [770]</item>
+        <item>Δικτύωση &amp; Αυτοματοποίηση [771]</item>
+        <item>Κώδικες &amp; Θεωρία Πληροφοριών [772]</item>
+        <item>Ασύρματες &amp; Κινητές Επικοινωνίες [773]</item>
+        <item>Ενσωματωμένα Συστήματα [774]</item>
+        <item>Κατανεμημένα Συστήματα [775]</item>
+        <item>Μεταγλωττιστές [776]</item>
+        <item>Ποιότητα Λογισμικού [777]</item>
+        <item>Τεχνική Νομοθεσία [993]</item>
+    </string-array>
+    <string-array name="Examino_Z_omada">
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+        <item>ΔΟΝΑ</item>
+    </string-array>
+    <string-array name="Examino_Z_typos">
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Υποχρεωτικό</item>
+    </string-array>
+    <string-array name="Examino_Z_dm">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="Examino_Z_theoreia">
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Examino_Z_frontistirio">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+        <item>Υποχρεωτικό</item>
+    </string-array>
+    <string-array name="Examino_Z_ergastirio">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+    </string-array>
+</resources>

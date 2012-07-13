@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/folder"
+        android:icon="@drawable/ic_menu_archive"
+        android:showAsAction="ifRoom"
+        android:title="Download Folder"/>
+    
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_menu_info_details"
+        android:showAsAction="ifRoom"
+        android:title="Σχετικά"/>
+
+    <!--
+         <item
+        android:id="@+id/settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="Ρυθμίσεις"
+        android:showAsAction="ifRoom"/>
+    -->
+
+</menu>

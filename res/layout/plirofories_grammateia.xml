@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Οι φοιτητές και κάθε ενδιαφερόμενος μπορούν να απευθύνονται στη Γραμματεία για τα ακόλουθα θέματα:"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="* Παροχή πληροφοριών για εγγραφές στο Τμήμα, μετεγγραφές φοιτητών, εγγραφές, κατάταξη πτυχιούχων και γενικά για κάθε θέμα που αφορά τη σπουδαστική τους κατάσταση. "
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="* Υποβολή αιτήσεων για εγγραφές, ανανέωση εγγραφής, επιλογή μαθημάτων, έκδοση πιστοποιητικών σπουδών, κ.α. "
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="* Κάθε ειδικό θέμα που τους αφορά. "
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Η Γραμματεία δέχεται και εξυπηρετεί του σπουδαστές καθημερινώς από 10:00 έως 12:00 π.μ."
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="Επίσης μπορείτε να επικοινωνήσετε τηλεφωνικά με την Γραμματεία του τμήματος στο τηλέφωνο (2410) 684-312 και με email στη διεύθυνση secry-cs@teilar.gr "
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="FAX: (2410) 684-573"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="Email Προϊσταμένου Τμήματος: head-cs@teilar.gr"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Προσωπικό Γραμματείας"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="* Προϊσταμένη Γραμματείας: Ζωή Βαϊούλη"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="* Γραμματεία: Αγλαϊα Γρηγορίου, Δέσποινα Μάλαμα - Μπάρμπα"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</ScrollView>

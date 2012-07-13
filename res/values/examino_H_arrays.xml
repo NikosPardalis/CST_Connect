@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Examino_H_title">
+        <item>Πτυχιακή Εργασία [801]</item>
+        <item>Πρακτική Άσκηση [802]</item>
+    </string-array>
+    <string-array name="Examino_H_omada">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_H_typos">
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+    </string-array>
+    <string-array name="Examino_H_dm">
+        <item>20</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="Examino_H_theoreia">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_H_frontistirio">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_H_ergastirio">
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+
+</resources>

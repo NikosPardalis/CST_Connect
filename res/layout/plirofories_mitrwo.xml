@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Με την έναρξη της λειτουργίας του Ενιαίου Μητρώου Σπουδαστών οι αιτήσεις τους θα παραλαμβάνονται και θα διεκπεραιώνονται ως ακολούθως:"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Για τα παρακάτω αιτήματα η υποβολή θα γίνεται Αποκλειστικά με Ηλεκτρονική υποβολή αιτήματος συνδεόμενοι στην ηλεκτρονική σας καρτέλα στο σύστημα ΔΙΟΝΥΣΟΣ από την διεύθυνση:"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="https://dionysos.teilar.gr/unistudent"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="και παραλαβή από το Ενιαίο Μητρώο Σπουδαστών"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="15dip"
+            android:background="#000000" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="[Προσοχή!! Δε θα γίνονται δεκτές οι έντυπες αιτήσεις]"
+            android:textColor="#FF0000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:text="@string/plirofories_mitrwo"
+            android:textSize="15dp" />
+             
+    </LinearLayout>
+
+</ScrollView>

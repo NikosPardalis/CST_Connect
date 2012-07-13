@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Examino_C_title">
+        <item>Φυσική ΙΙ [330]</item>
+        <item>Λειτουργικά Συστήματα [331]</item>
+        <item>Αρχιτεκτονική Η/Υ ΙΙ [332]</item>
+        <item>Ψηφιακή Επεξεργασία Σήματος [333]</item>
+        <item>Βάσεις Δεδομένων Ι [334]</item>
+        <item>Δίκτυα Ι [335]</item>
+        <item>Ξένη Γλώσσα ΙΙΙ [943]</item>
+    </string-array>
+    <string-array name="Examino_C_omada">
+        <item>Γενικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ξένη Γλώσσα ΙΙΙ [943]</item>
+    </string-array>
+    <string-array name="Examino_C_typos">
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Προαιρετικό</item>
+    </string-array>
+    <string-array name="Examino_C_dm">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_C_theoreia">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Examino_C_frontistirio">
+        <item>2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_C_ergastirio">
+        <item>-</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>-</item>
+    </string-array>
+
+</resources>

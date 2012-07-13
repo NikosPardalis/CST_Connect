@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="Examino_ST_title">
+        <item>Θεωρία Υπολογισμού [660]</item>
+        <item>Τεχνητή Νοημοσύνη [661]</item>
+        <item>ΣΑΕ &amp; Βιομηχανική Πληροφορική [662]</item>
+        <item>Προγραμματισμός IV [663]</item>
+        <item>Επιχειρησιακή Έρευνα [992]</item>
+    </string-array>
+    <string-array name="Examino_ST_omada">
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικότητας</item>
+        <item>ΔΟΝΑ</item>
+    </string-array>
+    <string-array name="Examino_ST_typos">
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+    </string-array>
+    <string-array name="Examino_ST_dm">
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="Examino_ST_theoreia">
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Examino_ST_frontistirio">
+        <item>2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Examino_ST_ergastirio">
+        <item>-</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>-</item>
+    </string-array>
+</resources>

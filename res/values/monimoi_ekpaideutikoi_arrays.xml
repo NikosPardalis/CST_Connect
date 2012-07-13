@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="monimoi_names">
+        <item>Βέντζας Δημήτριος (Τομεάρχης)</item>
+        <item>Αδάμ Γεώργιος (Προϊστάμενος)</item>
+        <item>Πετρέλλης Νικόλαος</item>
+        <item>Κακαρόντζας Γεώργιος</item>
+        <item>Λιόλιος Νικόλαος</item>
+        <item>Χαρτώνας Χρυσάφης</item>     
+        <item>Καρέτσος Γεώργιος</item>
+        <item>Γκαράνη Γεωργία</item>
+        <item>Σάββας Ηλίας</item>
+        <item>Κόκκορας Φώτης</item>
+        <item>Μπάτης Νικόλαος</item>
+        <item>Σαμαράς Νικόλαος (Τομεάρχης)</item>
+        <item>Τσουκάτος Κωνσταντίνος</item>
+        <item>Βλάχος Βασίλειος</item>
+        <item>Ιατρέλλης Όμηρος</item>
+        <item>Χαϊκάλης Κωνσταντίνος</item>
+        <item>Ντούρος Γεώργιος</item>
+        <item>Υψηλάντης Παντελής</item>
+        <item>Κουτσιαρής Αριστοτέλης</item>
+    </string-array>
+    <string-array name="monimoi_emails">
+        <item>ventzas@teilar.gr</item>
+        <item>gadam@teilar.gr</item>
+        <item>npetrellis@teilar.gr</item>
+        <item>gkakaron@teilar.gr</item>
+        <item>nliolios@teilar.gr</item>
+        <item>hartonas@teilar.gr</item>    
+        <item>karetsos@teilar.gr</item>
+        <item>garani@teilar.gr</item>
+        <item>savvas@teilar.gr</item>
+        <item>fkokkoras@teilar.gr</item>
+        <item>batis@teilar.gr</item>
+        <item>nsamaras@teilar.gr</item>
+        <item>ktsouk@teilar.gr</item>
+        <item>vsvlachos@teilar.gr</item>
+        <item>iatrellis@teilar.gr</item>
+        <item>kchaikalis@teilar.gr</item>
+        <item>g1951d@teilar.gr</item>
+        <item>ipsil@teilar.gr</item>
+        <item>ariskout@teilar.gr</item>
+    </string-array>
+    <string-array name="monimoi_qualifications">
+        <item>PhD Bradford University, P/G School of Control Eng, UK</item>
+        <item>PhD in Computer Science, University of Strathclyde, UK</item>
+        <item>PhD Πανεπιστήμιο Πατρών</item>
+        <item>MSc University of Brighton, UK</item>
+        <item>PhD Πανεπιστήμιο Πατρών</item>
+        <item>PhD Indiana University, USA</item>  
+        <item>PhD Εθνικό Μετσόβιο Πολυτεχνείο</item>
+        <item>PhD University of London, U.K.</item>
+        <item>PhD UCD - National University of Ireland</item>
+        <item>PhD ΑΠΘ</item>
+        <item>PhD Polytechnic Institute of New York, Η.Π.Α</item>
+        <item>PhD University of Pittsburgh, Η.Π.Α</item>
+        <item>PhD University of Maryland, ΗΠΑ</item>
+        <item>PhD Οικονομικό Πανεπιστήμιο Αθηνών</item>
+        <item>MSc Middlesex University, London, UK </item>
+        <item>PhD Bradford University, UK</item>
+        <item>PhD University of Illinois, USA</item>
+        <item>PhD</item>
+        <item>PhD</item>
+    </string-array>
+    <string-array name="monimoi_title">
+        <item>Καθηγητής</item>
+        <item>Αναπληρωτής Καθηγητής</item>
+        <item>Επίκουρος Καθηγητής</item>
+        <item>Καθηγητής Εφαρμογών</item>
+        <item>Καθηγητής</item>
+        <item>Καθηγητής</item>      
+        <item>Αναπληρωτής Καθηγητής</item>
+        <item>Επίκουρος Καθηγήτρια</item>
+        <item>Επίκουρος Καθηγητής</item>
+        <item>Καθηγητής Εφαρμογών</item>
+        <item>Καθηγητής</item>
+        <item>Καθηγητής</item>
+        <item>Επίκουρος Καθηγητής</item>
+        <item>Καθηγητής Εφαρμογών</item>
+        <item>Καθηγητής Εφαρμογών</item>
+        <item>Καθηγητής Εφαρμογών</item>
+        <item>Καθηγητής</item>
+        <item>Καθηγητής</item>
+        <item>Καθηγητής Εφαρμογών</item>
+    </string-array>
+    <string-array name="monimoi_images">
+        <item>com.cst.connect:drawable/ventzas</item>
+        <item>com.cst.connect:drawable/adam</item>
+        <item>com.cst.connect:drawable/petrelis</item>
+        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/liolios</item>
+        <item>com.cst.connect:drawable/noimage</item>   
+        <item>com.cst.connect:drawable/karetsos</item>
+        <item>com.cst.connect:drawable/garani</item>
+        <item>com.cst.connect:drawable/savvas</item>
+        <item>com.cst.connect:drawable/kokkoras</item>
+        <item>com.cst.connect:drawable/mpatis</item>
+        <item>com.cst.connect:drawable/samaras</item>
+        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/vlaxos</item>
+        <item>com.cst.connect:drawable/iatrellis</item>
+        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/noimage</item>
+    </string-array>
+     <string-array name="monimoi_epikoinonia">
+        <item>:: ΒΙΟΜΗΧΑΝΙΚΗ ΠΛΗΡΟΦΟΡΙΚΗ -ΣΑΕ	Τετάρτη 11:00 - 13:00	Οι σπουδαστές ενθαρρύνονται να παρακολουθούν και να αξιοποιούν με απορίες τις ώρες διδακαλίας.
+			\n:: ΨΗΦΙΑΚΗ ΕΠΕΞΕΡΓΑΣΙΑ ΣΗΜΑΤΟΣ	Τετάρτη 11:00 - 13:00	Οι σπουδαστές ενθαρρύνονται να παρακολουθούν και να αξιοποιούν με απορίες τις ώρες διδακαλίας.
+			\n:: ΒΙΟΜΗΧΑΝΙΚΗ ΠΛΗΡΟΦΟΡΙΚΗ - ΣΑΕ	Πέμπτη 8:00 - 10:00	Οι σπουδαστές ενθαρρύνονται να παρακολουθούν και να αξιοποιούν με απορίες τις ώρες διδακαλίας.
+			\n:: ΨΗΦΙΑΚΗ ΕΠΕΞΕΡΓΑΣΙΑ ΣΗΜΑΤΟΣ	Πέμπτη 8:00 - 10:00	Οι σπουδαστές ενθαρρύνονται να παρακολουθούν και να αξιοποιούν με απορίες τις ώρες διδακαλίας.
+			\n:: Στους Εργαστηριακούς Συνεργάτες κατα την Διάρκεια (του διώρου σας) των Εργαστηρίων.
+			\n Αν είστε παλιοί κατα την διάρκεια των εργαστηρίων (βλ. Εβδομαδιαίο Πρόγραμμα)</item>
+        <item>:: Δευτέρα, Παρασκευή	9:00-10:00	Τ3</item>
+        <item>:: Τετάρτη	10:00-12:00 \n:: Τρίτη	11:00-12:00	 </item>
+        <item>:: Παρασκευή	12:00-14:00	Γραφείο 9 \n:: Πέμπτη 	09:00-11:00	Γραφείο 9</item>
+        <item>:: Δευτέρα	11-12 \n:: Τετάρτη	11-12</item>
+        <item>null</item>      
+        <item>:: Δευτέρα/Monday	12:00-13:00	Γραφείο 6 Νέων Κτιρίων/Office No 6 \n:: Τετάρτη/Wednesday	11:00-12:00	Γραφείο 6 Νέων Κτιρίων/Office No 6</item>
+        <item>:: ΠΕΜΠΤΗ	9:00-10:00, 18:00-19:00	ΓΡΑΦΕΙΟ 4 (ΝΕΟ ΚΤΗΡΙΟ)</item>
+        <item>:: Τετάρτη	19.00-20.00	Γραφείο \n:: Πέμπτη	17.00-19.00	Γραφείο</item>
+        <item>:: Δευτέρα	12:00-16:00 \n:: Τετάρτη	12:00-16:00	\n:: για άλλες μέρες/ώρες	συνεννόηση με email</item>
+        <item>:: Πέμπτη	12:00-1:30μμ \n:: Παρασκευή	12:00-1:30μμ</item>
+        <item>:: Τρίτη 	11-13 \n:: Τετάρτη	9-11</item>
+        <item>:: Τετάρτη	11 - 2 μμ</item>
+        <item>:: Τρίτη	12:00-14:00	\n:: Τετάρτη	12:00-14:00</item>
+        <item>:: Παρασκευή	10-12	Γραφείο 7</item>
+        <item>null</item>
+        <item>null</item>
+        <item>null</item>
+        <item>:: Τετάρτη	10-11	Εργαστήριο Βιοπληροφορικής</item>
+    </string-array>
+   
+</resources>

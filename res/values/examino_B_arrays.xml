@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Examino_B_title">
+        <item>Μαθηματική Ανάλυση ΙΙ [230]</item>
+        <item>Αρχές Επικοινωνιών [231]</item>
+        <item>Φυσική Ι [232]</item>
+        <item>Δομές Δεδομένων &amp; Αρχεία [233]</item>
+        <item>Αρχιτεκτονική Η/Υ Ι [234]</item>
+        <item>Προγραμματισμός ΙΙ [235]</item>
+        <item>Ξένη Γλώσσα ΙΙ [942]</item>
+    </string-array>
+    <string-array name="Examino_B_omada">
+        <item>Γενικής Υποδομής</item>
+        <item>Γενικής Υποδομής</item>
+        <item>Γενικής Υποδομής</item>
+        <item>Γενικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ξένη Γλώσσα</item>
+    </string-array>
+    <string-array name="Examino_B_typos">
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Προαιρετικό</item>
+    </string-array>
+    <string-array name="Examino_B_dm">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_B_theoreia">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Examino_B_frontistirio">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_B_ergastirio">
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>-</item>
+    </string-array>
+
+</resources>

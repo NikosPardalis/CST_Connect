@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <item
+        android:id="@+id/mathimata_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/download_schedule"
+                android:title="Ωρολόγιο Πρόγραμμα"/>
+            <item
+                android:id="@+id/download_programma"
+                android:title="Πρόγραμμα Σπουδών"/>
+        </menu>
+    </item> -->
+    <item
+        android:id="@+id/download_programma"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Πρόγραμμα Σπουδών"
+        android:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Examino_D_title">
+        <item>Ανάλυση Αλγορίθμων [430]</item>
+        <item>Τηλεπικοινωνιακά Συστήματα Ι [431]</item>
+        <item>Ανάλυση και Σχεδιασμός Πληροφοριακών Συστημάτων [432]</item>
+        <item>Βάσεις Δεδομένων ΙΙ [433]</item>
+        <item>Δίκτυα ΙΙ [434]</item>
+    </string-array>
+    <string-array name="Examino_D_omada">
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
+    </string-array>
+    <string-array name="Examino_D_typos">
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+        <item>Υποχρεωτικό</item>
+    </string-array>
+    <string-array name="Examino_D_dm">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="Examino_D_theoreia">
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Examino_D_frontistirio">
+        <item>2</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="Examino_D_ergastirio">
+        <item>-</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+    </string-array>
+</resources>
