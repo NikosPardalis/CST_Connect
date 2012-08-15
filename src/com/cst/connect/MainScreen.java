@@ -1,6 +1,5 @@
 package com.cst.connect;
 
-import java.io.File;
 import java.util.Calendar;
 
 import android.app.AlertDialog;
@@ -16,9 +15,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
-import android.text.InputFilter.LengthFilter;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -276,9 +272,18 @@ public class MainScreen extends SherlockActivity {
 					break;
 				case 4:
 					try {
+						
+//						mobile = new Intent(
+//						"com.cst.connect.MobileWebView");
+//				mobile.putExtra(
+//						"Link",
+//						"http://www.cs.teilar.gr/m/#anakep.jsp?ts=1342262884122");
+//				startActivity(mobile);
 
 						Intent intent = new Intent("com.cst.connect.Links");
 						startActivity(intent);
+						
+//						startActivity(new Intent(Intent.ACTION_VIEW).setDataAndType(null, CalendarActivity.MIME_TYPE));
 
 					} catch (ActivityNotFoundException e) {
 						e.printStackTrace();
@@ -393,8 +398,9 @@ public class MainScreen extends SherlockActivity {
 
 		case R.id.folder:
 
-			Intent fileIntent = new Intent(Intent.ACTION_GET_CONTENT);
-			fileIntent.setType("file/*");
+//			Intent fileIntent = new Intent(Intent.ACTION_GET_CONTENT);
+//			fileIntent.setType("file/*");
+			Intent fileIntent = new Intent("com.cst.connect.FileBrowser");
 			// File file = new
 			// File(Environment.getExternalStorageDirectory().getPath()+"/CST Connect Downloads/");
 			// fileIntent.setData(Uri.fromFile(file));
@@ -468,8 +474,12 @@ public class MainScreen extends SherlockActivity {
 		}
 		return true;
 	}
-
+	
+	
+	
 	private void init() {
+		
+				
 		SharedPreferences sharedPref = getSharedPreferences(PRIVATE_PREF,
 				Context.MODE_PRIVATE);
 		int currentVersionNumber = 0;
@@ -494,8 +504,7 @@ public class MainScreen extends SherlockActivity {
 	}
 
 	private void showDialog() {
-		LayoutInflater inflater = (LayoutInflater) context
-				.getSystemService(LAYOUT_INFLATER_SERVICE);
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(LAYOUT_INFLATER_SERVICE);
 		View layout = inflater.inflate(R.layout.custom_dialog,
 				(ViewGroup) findViewById(android.R.id.list), false);
 

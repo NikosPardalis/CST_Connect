@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.view.MenuItem;
@@ -21,11 +22,16 @@ public class FileBrowser extends FileChooserActivity {
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 
-		if (Intent.ACTION_MAIN.equals(getIntent().getAction())) {
+//		if (Intent.ACTION_MAIN.equals(getIntent().getAction())) {
 			// Display the file chooser dialog with default options.
-			showFileChooser();
-		}
+//			showFileChooser();
+			startExplorer();
+//		}
 
+//		if (!isIntentGetContent()) {
+//	            // Display the file chooser with all file types
+//	            showFileChooser("*/*");
+//	    }
 	}
 
 	final String TAG = "FileSelectorTestActivity";
@@ -84,5 +90,12 @@ public class FileBrowser extends FileChooserActivity {
 		return true;
 
 	}
-
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+	    if (keyCode == KeyEvent.KEYCODE_BACK) {
+	    	 finish();
+	        return true;
+	    }
+	    return super.onKeyDown(keyCode, event);
+	}
 }

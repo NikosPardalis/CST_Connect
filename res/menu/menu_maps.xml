@@ -3,13 +3,13 @@
 
     <item
         android:id="@+id/skarifima"
-        android:icon="@android:drawable/ic_menu_slideshow"
+        android:icon="@drawable/picture"
         android:showAsAction="ifRoom"
         android:title="Σκαρίφημα">
     </item>
     <item
         android:id="@+id/ploigisi"
-        android:icon="@drawable/ic_menu_directions"
+        android:icon="@drawable/directions"
         android:showAsAction="ifRoom"
         android:title="Πλοήγηση">
     </item>

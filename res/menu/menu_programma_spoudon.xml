@@ -3,7 +3,7 @@
 
     <!-- <item
         android:id="@+id/mathimata_save"
-        android:icon="@android:drawable/ic_menu_save"
+        android:icon="@drawable/save"
         android:showAsAction="always">
         <menu>
             <item
@@ -14,9 +14,14 @@
                 android:title="Πρόγραμμα Σπουδών"/>
         </menu>
     </item> -->
+      <item
+        android:id="@+id/alusides"
+        android:icon="@drawable/link"
+        android:title="Αλυσίδες Μαθημάτων"
+        android:showAsAction="ifRoom"/>
     <item
         android:id="@+id/download_programma"
-        android:icon="@android:drawable/ic_menu_save"
+        android:icon="@drawable/save"
         android:title="Πρόγραμμα Σπουδών"
         android:showAsAction="ifRoom"/>
 

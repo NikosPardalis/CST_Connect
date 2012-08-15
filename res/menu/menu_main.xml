@@ -3,13 +3,13 @@
 
     <item
         android:id="@+id/folder"
-        android:icon="@drawable/ic_menu_archive"
+        android:icon="@drawable/folder"
         android:showAsAction="ifRoom"
         android:title="Download Folder"/>
     
     <item
         android:id="@+id/about"
-        android:icon="@drawable/ic_menu_info_details"
+        android:icon="@drawable/about"
         android:showAsAction="ifRoom"
         android:title="Σχετικά"/>
 

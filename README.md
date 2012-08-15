@@ -1,4 +1,4 @@
-## CST Connect v1.2.0
+## CST Connect v1.2.5
 
 
 This repository contains the source code for the CST Connect Android app.
@@ -7,7 +7,7 @@ This repository contains the source code for the CST Connect Android app.
   <img src="http://www.android.com/images/brand/android_app_on_play_large.png">
 </a>
 
-Official application for the Department of Computer and Department of Computer Science and Telecommunications (TEI of Larissa).
+Official application for Department of Computer Science and Telecommunications (TEI of Larissa).
 The application provides access to announcements/news/teacher info and many many other useful information for the students of the Department. 
 
 **See http://cst-connect.blogspot.com/ for more information.**

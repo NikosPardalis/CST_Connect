@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/download_schedule"
-        android:icon="@android:drawable/ic_menu_save"
+        android:icon="@drawable/save"
         android:showAsAction="always"
         android:title="Ωρολόγιο Πρόγραμμα"/>
 

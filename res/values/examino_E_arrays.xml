@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="Examino_E_title">
-        <item>Ασφάλεια &amp; Διαχείριση Δικτύων [550]</item>
+        <item>Βάσεις Δεδομένων  ΙΙ [433]</item>
         <item>Λογική στην Πληροφορική [551]</item>
         <item>Τεχνολογία Λογισμικού [552]</item>
         <item>Προγραμματισμός ΙΙΙ [553]</item>
-        <item>Τηλεπικοινωνιακά Συστήματα ΙΙ [554]</item>
+        <item>Θεωρία Υπολογισμού [660]</item>
         <item>Οικονομικά των Επιχειρήσεων [991]</item>
     </string-array>
     <string-array name="Examino_E_omada">
@@ -13,7 +13,7 @@
         <item>Γενικής Υποδομής</item>
         <item>Ειδικότητας</item>
         <item>Ειδικότητας</item>
-        <item>Ειδικότητας</item>
+        <item>Ειδικής Υποδομής</item>
         <item>ΔΟΝΑ</item>
     </string-array>
     <string-array name="Examino_E_typos">
@@ -25,19 +25,19 @@
         <item>Υποχρεωτικό</item>
     </string-array>
     <string-array name="Examino_E_dm">
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
         <item>6</item>
-        <item>5</item>
-        <item>5</item>
-        <item>5</item>
-        <item>5</item>
         <item>4</item>
     </string-array>
     <string-array name="Examino_E_theoreia">
-        <item>3</item>
-        <item>3</item>
         <item>2</item>
         <item>3</item>
         <item>2</item>
+        <item>3</item>
+        <item>3</item>
         <item>2</item>
     </string-array>
     <string-array name="Examino_E_frontistirio">
@@ -45,7 +45,7 @@
         <item>2</item>
         <item>-</item>
         <item>-</item>
-        <item>-</item>
+        <item>2</item>
         <item>2</item>
     </string-array>
     <string-array name="Examino_E_ergastirio">
@@ -53,7 +53,7 @@
         <item>-</item>
         <item>2</item>
         <item>2</item>
-        <item>2</item>
+        <item>-</item>
         <item>-</item>
     </string-array>
 </resources>

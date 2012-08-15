@@ -47,6 +47,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -76,6 +77,8 @@ import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.actionbarsherlock.view.Window;
+//import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener;
+//import com.handmark.pulltorefresh.library.PullToRefreshListView;
 
 public class Anakoinoseis extends SherlockActivity implements
 		OnNavigationListener {
@@ -95,7 +98,8 @@ public class Anakoinoseis extends SherlockActivity implements
 	static boolean UTF8 = false;
 	static HttpPost httpPost;
 	String rss, actionTitle, message, hyperlink;
-	// PullToRefreshListView pullToRefreshView;
+	String sdcard = Environment.getExternalStorageDirectory().getPath();
+//	PullToRefreshListView pullToRefreshView;
 	private static boolean FILE_EXISTS = false;
 	ActionBar actionBar;
 	public static boolean CHILDREN_NULL;
@@ -291,14 +295,14 @@ public class Anakoinoseis extends SherlockActivity implements
 					.show();
 		}
 
-		// pullToRefreshView = (PullToRefreshListView)
-		// findViewById(R.id.pull_to_refresh_listview);
-		// pullToRefreshView.setOnRefreshListener(new OnRefreshListener() {
-		// @Override
-		// public void onRefresh() {
-		// new GetDataTask().execute();
-		// }
-		// });
+//		 pullToRefreshView = (PullToRefreshListView)
+//		 findViewById(R.id.pull_to_refresh_listview);
+//		 pullToRefreshView.setOnRefreshListener(new OnRefreshListener() {
+//		 @Override
+//		 public void onRefresh() {
+//		 new GetDataTask().execute();
+//		 }
+//		 });
 
 	}
 
@@ -427,7 +431,7 @@ public class Anakoinoseis extends SherlockActivity implements
 
 		Intent notificationIntent = new Intent();
 		notificationIntent.setAction(android.content.Intent.ACTION_VIEW);
-		File file = new File("/sdcard/CST Connect Downloads/" + filename);
+		File file = new File(sdcard + "/CST Connect Downloads/" + filename);
 		MimeTypeMap mime = MimeTypeMap.getSingleton();
 		String ext = file.getName().substring(file.getName().indexOf(".") + 1);
 		String type = mime.getMimeTypeFromExtension(ext);
@@ -460,7 +464,7 @@ public class Anakoinoseis extends SherlockActivity implements
 	public void openFile() {
 		Intent notificationIntent = new Intent();
 		notificationIntent.setAction(android.content.Intent.ACTION_VIEW);
-		File file = new File("/sdcard/CST Connect Downloads/" + filename);
+		File file = new File(sdcard + "/CST Connect Downloads/" + filename);
 		MimeTypeMap mime = MimeTypeMap.getSingleton();
 		String ext = file.getName().substring(file.getName().indexOf(".") + 1);
 		String type = mime.getMimeTypeFromExtension(ext);
@@ -518,6 +522,7 @@ public class Anakoinoseis extends SherlockActivity implements
 						// description,
 						// link);
 						if (isCancelled())
+//							Log.d("isCanceled", "TRUE");
 							break;
 					}
 				}
@@ -554,7 +559,7 @@ public class Anakoinoseis extends SherlockActivity implements
 			setSupportProgressBarIndeterminateVisibility(false);
 
 			// dialog.dismiss();
-			// pullToRefreshView.onRefreshComplete();
+//			 pullToRefreshView.onRefreshComplete();
 			super.onPostExecute(result);
 		}
 	}
@@ -652,16 +657,14 @@ public class Anakoinoseis extends SherlockActivity implements
 				conexion.connect();
 
 				int lenghtOfFile = conexion.getContentLength();
-				File downloadsDirectory = new File(
-						"/sdcard/CST Connect Downloads/");
+				File downloadsDirectory = new File(	sdcard + "/CST Connect Downloads/");
 
 				if (!downloadsDirectory.exists()) {
 					downloadsDirectory.mkdir();
 				}
 
 				InputStream input = new BufferedInputStream(url.openStream());
-				OutputStream output = new FileOutputStream(
-						"/sdcard/CST Connect Downloads/" + filename);
+				OutputStream output = new FileOutputStream(sdcard + "/CST Connect Downloads/" + filename);
 
 				byte data[] = new byte[1024];
 
@@ -756,6 +759,15 @@ public class Anakoinoseis extends SherlockActivity implements
 		mDbHelper.close();
 	}
 
+//	public void folderNameSet(){
+//		
+//		SharedPreferences folder = getSharedPreferences("Folder", 0);
+//		SharedPreferences.Editor editor = folder.edit();
+//		editor.putString("Folder","CST Connect Downloads");
+//		editor.commit();
+//	}
+	
+	
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
 	

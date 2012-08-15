@@ -4,7 +4,7 @@
     <string-array name="Examino_B_title">
         <item>Μαθηματική Ανάλυση ΙΙ [230]</item>
         <item>Αρχές Επικοινωνιών [231]</item>
-        <item>Φυσική Ι [232]</item>
+        <item>Ηλεκτρονικά &amp; Τηλεπικοινωνίες [133]</item>
         <item>Δομές Δεδομένων &amp; Αρχεία [233]</item>
         <item>Αρχιτεκτονική Η/Υ Ι [234]</item>
         <item>Προγραμματισμός ΙΙ [235]</item>
@@ -49,7 +49,7 @@
     <string-array name="Examino_B_frontistirio">
         <item>2</item>
         <item>2</item>
-        <item>2</item>
+        <item>-</item>
         <item>-</item>
         <item>-</item>
         <item>2</item>

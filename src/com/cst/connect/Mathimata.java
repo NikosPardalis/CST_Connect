@@ -28,6 +28,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 
 import android.net.ConnectivityManager;
@@ -49,7 +50,7 @@ import android.widget.Toast;
 
 import android.widget.TextView;
 
-public class Mathimata extends SherlockActivity{
+public class Mathimata extends SherlockActivity {
 
 	Context context = this;
 	AlertDialog.Builder builder = null;
@@ -61,6 +62,10 @@ public class Mathimata extends SherlockActivity{
 	File file, downloadsDirectory, download;
 	String downloadsDirectoryPath = "/sdcard/CST Connect Downloads/";
 	String filename;
+	// final int COLOR_CHANGES = Color.rgb(212, 117, 33);
+	// final int COLOR_CHANGES = Color.rgb(104, 153, 255);
+	// final int COLOR_CHANGES = Color.rgb(51, 181, 229);
+	final int COLOR_CHANGES = Color.rgb(47, 125, 153);
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -71,6 +76,11 @@ public class Mathimata extends SherlockActivity{
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setTitle("Μαθήματα");
+
+		Toast.makeText(
+				this,
+				"Με γαλάζιο χρώμα είναι επισημασμένες οι αλλαγές του Προγράμματος Σπουδών 2012-2013",
+				Toast.LENGTH_LONG).show();
 
 		ViewPagerAdapter adapter = new ViewPagerAdapter(this);
 		ViewPager pager = (ViewPager) findViewById(R.id.viewpager);
@@ -103,7 +113,7 @@ public class Mathimata extends SherlockActivity{
 		public Object instantiateItem(View pager, int position) {
 
 			ListView v = new ListView(context);
-			
+			v.setEnabled(false);
 			switch (position) {
 
 			case 0:
@@ -128,9 +138,16 @@ public class Mathimata extends SherlockActivity{
 
 						// View v = super.getView(groupPosition,convertView,
 						// parent);
+
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+
+						if (((String) ((Map<String, Object>) getItem(groupPosition))
+								.get("Τίτλος")).contains("Φυσική")) {
+							convertView.setBackgroundColor(COLOR_CHANGES);
+						}
+
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -161,11 +178,11 @@ public class Mathimata extends SherlockActivity{
 								.findViewById(R.id.mathima_icon))
 								.setImageDrawable((Drawable) ((HashMap<String, Object>) getItem(groupPosition))
 										.get("Εικόνα"));
+
 						return convertView;
 					}
 
 				};
-
 				v.setAdapter(examino_A_adapter);
 
 				break;
@@ -199,6 +216,10 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+						if (((String) ((Map<String, Object>) getItem(groupPosition))
+								.get("Τίτλος")).contains("Ηλεκτρονικά")) {
+							convertView.setBackgroundColor(COLOR_CHANGES);
+						}
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -267,6 +288,7 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -334,6 +356,11 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+
+						if (((String) ((Map<String, Object>) getItem(groupPosition))
+								.get("Τίτλος")).contains("Ασφάλεια")) {
+							convertView.setBackgroundColor(COLOR_CHANGES);
+						}
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -401,6 +428,13 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+
+						if (((String) ((Map<String, Object>) getItem(groupPosition))
+								.get("Τίτλος")).contains("Βάσεις")
+								|| ((String) ((Map<String, Object>) getItem(groupPosition))
+										.get("Τίτλος")).contains("Υπολογισμού")) {
+							convertView.setBackgroundColor(COLOR_CHANGES);
+						}
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -468,6 +502,17 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+
+						if (((String) ((Map<String, Object>) getItem(groupPosition))
+								.get("Τίτλος")).contains("Τηλεπικοινωνιακά")
+								|| ((String) ((Map<String, Object>) getItem(groupPosition))
+										.get("Τίτλος"))
+										.contains("Ενσωματωμένα")
+								|| ((String) ((Map<String, Object>) getItem(groupPosition))
+										.get("Τίτλος"))
+										.contains("Μεταγλωττιστές")) {
+							convertView.setBackgroundColor(COLOR_CHANGES);
+						}
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -479,6 +524,8 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_dm))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("ΔΜ"));
+						((TextView) convertView.findViewById(R.id.row_dm))
+								.setBackgroundColor(COLOR_CHANGES);
 
 						((TextView) convertView.findViewById(R.id.row_theoreia))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
@@ -535,6 +582,7 @@ public class Mathimata extends SherlockActivity{
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
+
 						((TextView) convertView.findViewById(R.id.row_omada))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Ομάδα"));
@@ -911,7 +959,7 @@ public class Mathimata extends SherlockActivity{
 				if (examino_ST_typos[i].equals("Υποχρεωτικό")) {
 					m.put("Εικόνα",
 							getResources().getDrawable(R.drawable.red_book));
-				} else if (examino_ST_typos[i].equals("Επιλογής Υποχρεωτικό")) {
+				} else if (examino_ST_typos[i].equals("Επιλογής Υποχρ.")) {
 					m.put("Εικόνα",
 							getResources().getDrawable(R.drawable.blue_book));
 				} else if (examino_ST_typos[i].equals("Προαιρετικό")) {
@@ -1153,7 +1201,7 @@ public class Mathimata extends SherlockActivity{
 	public boolean onCreateOptionsMenu(Menu menu) {
 		super.onCreateOptionsMenu(menu);
 		getSupportMenuInflater().inflate(R.menu.menu_programma_spoudon, menu);
-		
+
 		return true;
 
 	}
@@ -1163,6 +1211,12 @@ public class Mathimata extends SherlockActivity{
 		switch (item.getItemId()) {
 		case android.R.id.home:
 			finish();
+			break;
+		case R.id.alusides:
+
+			Intent alusides = new Intent("com.cst.connect.Alusides");
+			startActivity(alusides);
+
 			break;
 
 		case R.id.download_programma:

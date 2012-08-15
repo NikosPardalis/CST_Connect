@@ -346,20 +346,14 @@ public class CSMapView extends SherlockMapActivity implements LocationListener {
 		String current;
 		Intent intent;
 
-		String CST = "39.627604,22.383723";
-		String test1 = "40.302538,21.788331";
-		String test2 = "40.29825,21.785306";
-		String test3 = "40.298381,21.79155";
-		String test4 = "40.301016,21.802086";
+		String CST = "39.627604,22.383723";		
 		current = String.valueOf(currentPoint);
 		current = current.substring(0, 2) + "." + current.substring(2, 11)
 				+ "." + current.substring(11, 17);
 		Log.d("Curent position", current);
-//		intent = new Intent(android.content.Intent.ACTION_VIEW,
-//				Uri.parse("http://maps.google.com/maps?saddr=" + current
-//						+ "&daddr=" + CST));
 		intent = new Intent(android.content.Intent.ACTION_VIEW,
-				Uri.parse("http://maps.google.com/maps?saddr=" + current+ "," + test1 + ","+ test2 + ","+ test3 + "," + test4 ));
+				Uri.parse("http://maps.google.com/maps?saddr=" + current
+						+ "&daddr=" + CST));		
 		startActivity(intent);
 	}
 

@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-     <string-array name="Examino_ST_title">
-        <item>Θεωρία Υπολογισμού [660]</item>
+
+    <string-array name="Examino_ST_title">
+        <item>Τηλεπικοινωνιακά Συστήματα ΙΙ [554]</item>
         <item>Τεχνητή Νοημοσύνη [661]</item>
         <item>ΣΑΕ &amp; Βιομηχανική Πληροφορική [662]</item>
         <item>Προγραμματισμός IV [663]</item>
         <item>Επιχειρησιακή Έρευνα [992]</item>
+        <item>Ενσωματωμένα Συστήματα [774]</item>
+        <item>Μεταγλωττιστές  [776]</item>
     </string-array>
     <string-array name="Examino_ST_omada">
-        <item>Ειδικής Υποδομής</item>
+        <item>Ειδικότητας</item>
         <item>Ειδικής Υποδομής</item>
         <item>Ειδικής Υποδομής</item>
         <item>Ειδικότητας</item>
         <item>ΔΟΝΑ</item>
+        <item>Ειδικότητας</item>
+        <item>Ειδικότητας</item>
     </string-array>
     <string-array name="Examino_ST_typos">
         <item>Υποχρεωτικό</item>
@@ -20,33 +25,44 @@
         <item>Υποχρεωτικό</item>
         <item>Υποχρεωτικό</item>
         <item>Υποχρεωτικό</item>
+        <item>Επιλογής Υποχρ.</item>
+        <item>Επιλογής Υποχρ.</item>
     </string-array>
     <string-array name="Examino_ST_dm">
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
     </string-array>
     <string-array name="Examino_ST_theoreia">
-        <item>3</item>
+        <item>2</item>
         <item>3</item>
         <item>2</item>
         <item>3</item>
+        <item>2</item>
+        <item>2</item>
         <item>2</item>
     </string-array>
     <string-array name="Examino_ST_frontistirio">
+        <item>-</item>
+        <item>-</item>
+        <item>-</item>
+        <item>2</item>
         <item>2</item>
         <item>-</item>
         <item>-</item>
-        <item>2</item>
-        <item>2</item>
     </string-array>
     <string-array name="Examino_ST_ergastirio">
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
+        <item>2</item>
         <item>-</item>
         <item>2</item>
         <item>2</item>
-        <item>2</item>
-        <item>-</item>
     </string-array>
+
 </resources>
