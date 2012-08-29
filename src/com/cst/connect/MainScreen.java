@@ -79,8 +79,7 @@ public class MainScreen extends SherlockActivity {
 										if (item == 0) {
 											if (isOnline()) {
 
-												intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra("RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp");//
 												intent.putExtra("title",
@@ -96,18 +95,14 @@ public class MainScreen extends SherlockActivity {
 											}
 
 										} else if (item == 1) {
-											// Intent intent = new Intent(
-											// "com.cst.connect.TeachersList");
-											Intent intent = new Intent(
-													"com.cst.connect.TeachersView");
+											Intent intent = new Intent(getBaseContext(), com.cst.connect.TeachersView.class);
 											intent.putExtra("ComingFrom",
 													"teachers");
 											startActivity(intent);
 										} else if (item == 2) {
 
 											if (isOnline()) {
-												intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra("RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp?id=cs-news@teilar.gr");
 												intent.putExtra("title",
@@ -126,8 +121,7 @@ public class MainScreen extends SherlockActivity {
 										} else if (item == 3) {
 
 											if (isOnline()) {
-												intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra("RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp?id=cs-calendar%40teilar.gr&Mynews=0#1");
 												// intent.putExtra("RSS",
@@ -159,7 +153,7 @@ public class MainScreen extends SherlockActivity {
 
 				case 1:
 					try {
-						Intent intent = new Intent("com.cst.connect.CSMapView");
+						Intent intent = new Intent(getBaseContext(), com.cst.connect.CSMapView.class);
 						startActivity(intent);
 
 					} catch (ActivityNotFoundException e) {
@@ -181,18 +175,15 @@ public class MainScreen extends SherlockActivity {
 											int item) {
 
 										if (item == 0) {
-											Intent intent = new Intent(
-													"com.cst.connect.Programma");
+											Intent intent = new Intent(getBaseContext(), com.cst.connect.Programma.class);
 											startActivity(intent);
 										} else if (item == 1) {
-											Intent intent = new Intent(
-													"com.cst.connect.Mathimata");
+											Intent intent = new Intent(getBaseContext(), com.cst.connect.Mathimata.class);
 											startActivity(intent);
 										} else if (item == 2) {
 
 											if (isOnline()) {
-												mobile = new Intent(
-														"com.cst.connect.MobileWebView");
+												mobile = new Intent(getBaseContext(), com.cst.connect.MobileWebView.class);
 												mobile.putExtra("Link",
 														"https://dionysos.teilar.gr/unistudent/stud_CResults.asp?studPg=1&mnuid=mnu3&");
 												startActivity(mobile);
@@ -208,7 +199,7 @@ public class MainScreen extends SherlockActivity {
 
 											if (isOnline()) {
 												mobile = new Intent(
-														"com.cst.connect.MobileWebView");
+														getBaseContext(), com.cst.connect.MobileWebView.class);
 												mobile.putExtra(
 														"Link",
 														"https://dionysos.teilar.gr/unistudent/stud_vClasses.asp?studPg=1&mnuid=diloseis;showDil&");
@@ -222,8 +213,7 @@ public class MainScreen extends SherlockActivity {
 														.show();
 											}
 										} else if (item == 4) {
-											mobile = new Intent(
-													"com.cst.connect.MobileWebView");
+											mobile = new Intent(getBaseContext(), com.cst.connect.MobileWebView.class);
 											mobile.putExtra("Link",
 													"exetastiki");
 											startActivity(mobile);
@@ -252,12 +242,10 @@ public class MainScreen extends SherlockActivity {
 											int item) {
 
 										if (item == 0) {
-											Intent intent = new Intent(
-													"com.cst.connect.Plirofories");
+											Intent intent = new Intent(getBaseContext(), com.cst.connect.Plirofories.class);
 											startActivity(intent);
 										} else {
-											Intent intent = new Intent(
-													"com.cst.connect.Ekpaideutikoi");
+											Intent intent = new Intent(getBaseContext(), com.cst.connect.Ekpaideutikoi.class);
 											startActivity(intent);
 										}
 									}
@@ -280,7 +268,8 @@ public class MainScreen extends SherlockActivity {
 //						"http://www.cs.teilar.gr/m/#anakep.jsp?ts=1342262884122");
 //				startActivity(mobile);
 
-						Intent intent = new Intent("com.cst.connect.Links");
+						Intent intent = new Intent(getBaseContext(), com.cst.connect.Links.class);
+//						Intent intent = new Intent(getBaseContext(), com.cst.connect.Calendar.class);
 						startActivity(intent);
 						
 //						startActivity(new Intent(Intent.ACTION_VIEW).setDataAndType(null, CalendarActivity.MIME_TYPE));
@@ -303,8 +292,7 @@ public class MainScreen extends SherlockActivity {
 
 										if (item == 0) {
 											if (isOnline()) {
-												mobile = new Intent(
-														"com.cst.connect.MobileWebView");
+												mobile = new Intent(getBaseContext(), com.cst.connect.MobileWebView.class);
 												mobile.putExtra("Link",
 														"http://www.cs.teilar.gr/m");
 												startActivity(mobile);
@@ -318,8 +306,7 @@ public class MainScreen extends SherlockActivity {
 											}
 										} else if (item == 1) {
 											if (isOnline()) {
-												mobile = new Intent(
-														"com.cst.connect.MobileWebView");
+												mobile = new Intent(getBaseContext(), com.cst.connect.MobileWebView.class);
 												mobile.putExtra("Link",
 														"https://myweb.teilar.gr/src/login.php");
 												startActivity(mobile);
@@ -355,8 +342,7 @@ public class MainScreen extends SherlockActivity {
 			tv.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					Intent exetastiki = new Intent(
-							"com.cst.connect.MobileWebView");
+					Intent exetastiki = new Intent(getBaseContext(), com.cst.connect.MobileWebView.class);
 					exetastiki.putExtra("Link", "exetastiki");
 					startActivity(exetastiki);
 				}
@@ -400,7 +386,7 @@ public class MainScreen extends SherlockActivity {
 
 //			Intent fileIntent = new Intent(Intent.ACTION_GET_CONTENT);
 //			fileIntent.setType("file/*");
-			Intent fileIntent = new Intent("com.cst.connect.FileBrowser");
+			Intent fileIntent = new Intent(getBaseContext(), com.cst.connect.FileBrowser.class);
 			// File file = new
 			// File(Environment.getExternalStorageDirectory().getPath()+"/CST Connect Downloads/");
 			// fileIntent.setData(Uri.fromFile(file));

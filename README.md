@@ -1,4 +1,4 @@
-## CST Connect v1.2.5
+## CST Connect v1.2.6
 
 
 This repository contains the source code for the CST Connect Android app.

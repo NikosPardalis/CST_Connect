@@ -113,7 +113,7 @@ public class Mathimata extends SherlockActivity {
 		public Object instantiateItem(View pager, int position) {
 
 			ListView v = new ListView(context);
-			v.setEnabled(false);
+			
 			switch (position) {
 
 			case 0:
@@ -134,6 +134,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -209,6 +210,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -281,6 +283,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -349,6 +352,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -421,6 +425,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -495,6 +500,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -575,6 +581,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -643,6 +650,7 @@ public class Mathimata extends SherlockActivity {
 									.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 							convertView = infalInflater.inflate(
 									R.layout.mathimata_list_item, null);
+							convertView.setEnabled(false);
 						}
 
 						// View v = super.getView(groupPosition,convertView,
@@ -1214,7 +1222,7 @@ public class Mathimata extends SherlockActivity {
 			break;
 		case R.id.alusides:
 
-			Intent alusides = new Intent("com.cst.connect.Alusides");
+			Intent alusides = new Intent(getBaseContext(), com.cst.connect.Alusides.class);
 			startActivity(alusides);
 
 			break;

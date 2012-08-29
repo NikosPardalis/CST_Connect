@@ -296,7 +296,7 @@ public class CSMapView extends SherlockMapActivity implements LocationListener {
 
 		case R.id.skarifima:
 
-			Intent intent = new Intent("com.cst.connect.MobileWebView");
+			Intent intent = new Intent(getBaseContext(), com.cst.connect.MobileWebView.class);
 			intent.putExtra("Link", "skarifima");
 			startActivity(intent);
 

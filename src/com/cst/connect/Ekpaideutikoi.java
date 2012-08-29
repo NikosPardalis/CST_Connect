@@ -154,8 +154,7 @@ public class Ekpaideutikoi extends SherlockActivity {
 												DialogInterface dialog, int item) {
 
 											if (item == 0) {
-												Intent intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												Intent intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra(
 														"RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp?id="
@@ -195,8 +194,7 @@ public class Ekpaideutikoi extends SherlockActivity {
 												DialogInterface dialog, int item) {
 
 											if (item == 0) {
-												Intent intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												Intent intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra(
 														"RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp?id="
@@ -308,8 +306,7 @@ public class Ekpaideutikoi extends SherlockActivity {
 												DialogInterface dialog, int item) {
 
 											if (item == 0) {
-												Intent intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												Intent intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra(
 														"RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp?id="
@@ -356,8 +353,7 @@ public class Ekpaideutikoi extends SherlockActivity {
 												DialogInterface dialog, int item) {
 
 											if (item == 0) {
-												Intent intent = new Intent(
-														"com.cst.connect.Anakoinoseis");
+												Intent intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 												intent.putExtra(
 														"RSS",
 														"http://www.cs.teilar.gr/CS/rss.jsp?id="

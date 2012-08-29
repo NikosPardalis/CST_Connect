@@ -125,7 +125,7 @@ public class TeachersView extends SherlockActivity {
 							final int position, long id) {
 
 						if (isOnline()) {
-							Intent intent = new Intent("com.cst.connect.Anakoinoseis");
+							Intent intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 							intent.putExtra("RSS",
 									"http://www.cs.teilar.gr/CS/rss.jsp?id="
 											+ monimoi_emails[position]);
@@ -191,7 +191,7 @@ public class TeachersView extends SherlockActivity {
 							final int position, long id) {
 						
 						if (isOnline()) {
-							Intent intent = new Intent("com.cst.connect.Anakoinoseis");
+							Intent intent = new Intent(getBaseContext(), com.cst.connect.Anakoinoseis.class);
 							intent.putExtra("RSS",
 									"http://www.cs.teilar.gr/CS/rss.jsp?id="
 											+ sunergates_emails[position]);

@@ -34,8 +34,9 @@ public class Plirofories extends SherlockActivity {
 	}
 
 	class ViewPagerAdapter extends PagerAdapter implements TitleProvider {
-		private final String[] titles = new String[] { "Τμήμα", "Γραμματεία","Ενιαίο Μητρώο",
-				"Τηλέφωνα" };
+		private final String[] titles = new String[] { "Εξάμηνο Α",
+				"Εξάμηνο Β", "Εξάμηνο Γ", "Εξάμηνο Δ", "Εξάμηνο Ε",
+				"Εξάμηνο ΣΤ", "Εξάμηνο Ζ" };
 		private final Context context;
 
 		public ViewPagerAdapter(Context context) {

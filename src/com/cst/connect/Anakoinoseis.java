@@ -83,7 +83,7 @@ import com.actionbarsherlock.view.Window;
 public class Anakoinoseis extends SherlockActivity implements
 		OnNavigationListener {
 
-	static ArrayList<HashMap<String, String>> localist, templist;
+	private ArrayList<HashMap<String, String>> localist;
 
 	ProgressDialog dialog;
 	SimpleAdapter adapter;
@@ -218,7 +218,7 @@ public class Anakoinoseis extends SherlockActivity implements
 				TextView text = (TextView) layout
 						.findViewById(R.id.dialog_text);
 
-				text.setText(XMLcleansing(message, rss));
+				text.setText(xmlCleansing(message, rss));
 				Linkify.addLinks(text, Linkify.ALL);
 				// Log.d(null, message);
 				text.setSingleLine(false);
@@ -315,7 +315,7 @@ public class Anakoinoseis extends SherlockActivity implements
 		return false;
 	}
 
-	public String XMLcleansing(String message, String rss) {
+	public String xmlCleansing(String message, String rss) {
 
 		if (rss.equals("http://www.cs.teilar.gr/CS/rss.jsp")) {
 
