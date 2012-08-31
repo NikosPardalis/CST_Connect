@@ -34,9 +34,8 @@ public class Plirofories extends SherlockActivity {
 	}
 
 	class ViewPagerAdapter extends PagerAdapter implements TitleProvider {
-		private final String[] titles = new String[] { "Εξάμηνο Α",
-				"Εξάμηνο Β", "Εξάμηνο Γ", "Εξάμηνο Δ", "Εξάμηνο Ε",
-				"Εξάμηνο ΣΤ", "Εξάμηνο Ζ" };
+		private final String[] titles = new String[] { "Τμήμα", "Γραμματεία",
+				"Ενιαίο Μητρώο", "Τηλέφωνα" };
 		private final Context context;
 
 		public ViewPagerAdapter(Context context) {
@@ -56,21 +55,22 @@ public class Plirofories extends SherlockActivity {
 		@Override
 		public Object instantiateItem(View pager, int position) {
 			LayoutInflater infalInflater = (LayoutInflater) context
-			.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			View v = null;
 			switch (position) {
 
 			case 0:
 				v = infalInflater.inflate(R.layout.plirofories_tmima, null);
 				break;
-			case 1:				
-				v = infalInflater.inflate(R.layout.plirofories_grammateia, null);
+			case 1:
+				v = infalInflater
+						.inflate(R.layout.plirofories_grammateia, null);
 				break;
 			case 2:
-				 v = infalInflater.inflate(R.layout.plirofories_mitrwo, null);
+				v = infalInflater.inflate(R.layout.plirofories_mitrwo, null);
 				break;
 			case 3:
-				 v = infalInflater.inflate(R.layout.plirofories_tilefona, null);
+				v = infalInflater.inflate(R.layout.plirofories_tilefona, null);
 				break;
 			default:
 				break;
@@ -116,5 +116,5 @@ public class Plirofories extends SherlockActivity {
 		}
 		return true;
 	}
-	
+
 }

@@ -137,8 +137,6 @@ public class Mathimata extends SherlockActivity {
 							convertView.setEnabled(false);
 						}
 
-						// View v = super.getView(groupPosition,convertView,
-						// parent);
 
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
@@ -213,8 +211,7 @@ public class Mathimata extends SherlockActivity {
 							convertView.setEnabled(false);
 						}
 
-						// View v = super.getView(groupPosition,convertView,
-						// parent);
+
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
@@ -286,8 +283,7 @@ public class Mathimata extends SherlockActivity {
 							convertView.setEnabled(false);
 						}
 
-						// View v = super.getView(groupPosition,convertView,
-						// parent);
+
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
@@ -355,8 +351,7 @@ public class Mathimata extends SherlockActivity {
 							convertView.setEnabled(false);
 						}
 
-						// View v = super.getView(groupPosition,convertView,
-						// parent);
+
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
@@ -428,8 +423,6 @@ public class Mathimata extends SherlockActivity {
 							convertView.setEnabled(false);
 						}
 
-						// View v = super.getView(groupPosition,convertView,
-						// parent);
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
@@ -503,8 +496,7 @@ public class Mathimata extends SherlockActivity {
 							convertView.setEnabled(false);
 						}
 
-						// View v = super.getView(groupPosition,convertView,
-						// parent);
+
 						((TextView) convertView.findViewById(R.id.row_title))
 								.setText((String) ((Map<String, Object>) getItem(groupPosition))
 										.get("Τίτλος"));
