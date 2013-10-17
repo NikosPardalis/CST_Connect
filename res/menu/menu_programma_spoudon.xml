@@ -17,12 +17,12 @@
       <item
         android:id="@+id/alusides"
         android:icon="@drawable/link"
-        android:title="Αλυσίδες Μαθημάτων"
+        android:title="Προαπαιτούμενα Μαθήματα"
         android:showAsAction="ifRoom"/>
     <item
         android:id="@+id/download_programma"
         android:icon="@drawable/save"
-        android:title="Πρόγραμμα Σπουδών"
+        android:title="Λήψη Πρόγραμματος Σπουδών"
         android:showAsAction="ifRoom"/>
 
 </menu>

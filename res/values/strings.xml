@@ -2,17 +2,17 @@
 <resources>
 
     <string name="app_name">CST Connect</string>
+    <string name="map_api_key_v2">AIzaSyAMOD02pTUFE6RhyThjIuoMJbX9V2dLKI4</string>
     <string name="map_api_key">0BdPSCRMnTmwj8aUcabpg1IWYynI4pZmMo4Nx5A</string>
     <string name="map_debug_key">0BdPSCRMnTmzUxyHafGd1cgLbF3cpPBiumIqDAw</string>
+    <string name="image_fail">Δεν είναι δυνατό να προβληθεί το περιεχόμενο! \n\n Παρακαλώ ελέγξτε τη σύνδεση σας με το δίκτυο και ξαναπροσπαθήστε.</string>
     <string name="changelog_full_title">Changelog</string>
     <string name="changelog_title">Τι νέο υπάρχει:</string>
     <string name="changelog_ok_button">Κλείσιμο</string>
     <string name="changelog_show_full">Πλήρες</string>
-    
-
-    
     <string name="menu_item_search_action_hint">Your Search Query</string>
-<string name="menu_item_search_action_menu_text">Search</string>
+    <string name="menu_item_search_action_menu_text">Search</string>
+    <string name="backend_site">https://sites.google.com/site/cstconnectbackend/</string>
 
     <string-array name="Examina_xeimerino_list">
         <item>Εξάμηνο Α</item>
@@ -24,15 +24,20 @@
         <item>Εξάμηνο Β</item>
         <item>Εξάμηνο Δ</item>
         <item>Εξάμηνο ΣΤ</item>
+        <item>Εξάμηνο Ζ</item>
     </string-array>
-    
+    <string-array name="alusides_list">
+        <item>Μηχανικών Πληροφορικής</item>
+        <item>Μηχανικών Δικτυων</item>
+        <item>Μηχανικών Λογισμικού</item>
+    </string-array>
     <string-array name="monimoi_teachers_names">
         <item>Αδάμ Γεώργιος</item>
         <item>Βέντζας Δημήτριος</item>
         <item>Βλάχος Βασίλειος</item>
         <item>Γκαράνη Γεωργία</item>
         <item>Ιατρέλλης Όμηρος</item>
-        <item>Κακαρόντζας Γεώργιος</item>       
+        <item>Κακαρόντζας Γεώργιος</item>
         <item>Καρέτσος Γεώργιος</item>
         <item>Κόκκορας Φώτης</item>
         <item>Κουτσιαρής Αριστοτέλης</item>
@@ -45,14 +50,13 @@
         <item>Χαϊκάλης Κωνσταντίνος</item>
         <item>Χαρτώνας Χρυσάφης</item>
     </string-array>
-    
     <string-array name="monimoi_teachers_emails">
         <item>gadam@teilar.gr</item>
         <item>ventzas@teilar.gr</item>
         <item>vsvlachos@teilar.gr</item>
         <item>garani@teilar.gr</item>
         <item>iatrellis@teilar.gr</item>
-        <item>gkakaron@teilar.gr</item>     
+        <item>gkakaron@teilar.gr</item>
         <item>karetsos@teilar.gr</item>
         <item>fkokkoras@teilar.gr</item>
         <item>ariskout@teilar.gr</item>
@@ -64,16 +68,14 @@
         <item>ktsouk@teilar.gr</item>
         <item>kchaikalis@teilar.gr</item>
         <item>hartonas@teilar.gr</item>
-        
-        </string-array>
-    
+    </string-array>
     <string-array name="Teachers">
         <item>Αδάμ Γεώργιος</item>
         <item>Βέντζας Δημήτριος</item>
         <item>Βλάχος Βασίλειος</item>
         <item>Γκαράνη Γεωργία</item>
         <item>Ιατρέλλης Όμηρος</item>
-        <item>Κακαρόντζας Γεώργιος</item>  
+        <item>Κακαρόντζας Γεώργιος</item>
         <item>Καρέτσος Γεώργιος</item>
         <item>Κόκκορας Φώτης</item>
         <item>Κουτσιαρής Αριστοτέλης</item>
@@ -97,7 +99,7 @@
         <item>Κόπανος Χρήστος</item>
         <item>Κατσίμπας Θεόδωρος</item>
         <item>Λεπενιώτου Αλεξάνδρα</item>
-        <item>Λιόλιος Χαράλαμπος </item>
+        <item>Λιόλιος Χαράλαμπος</item>
         <item>Μάργαρης Αθανάσιος</item>
         <item>Μαϊργιώτης Αντώνιος</item>
         <item>Μπασδαβάνος Μαργαρίτης</item>
@@ -109,13 +111,141 @@
         <item>Σωμαράς Χρήστος</item>
         <item>Ψωμιάδης Κωνσταντίνος</item>
     </string-array>
+    <string-array name="Teachers_sorted">
+        <item>Αδάμ Γεώργιος</item>
+        <item>Βέντζας Δημήτριος</item>
+        <item>Βλαχογιάννης Ιωάννης</item>
+        <item>Βλάχος Βασίλειος</item>
+        <item>Γκαντάρας Ιωάννης</item>
+        <item>Γκαράνη Γεωργία</item>
+        <item>Δερβένης Χαράλαμπος</item>
+        <item>Ζεϊμπέκης Σταύρος</item>
+        <item>Ιατρέλλης Όμηρος</item>
+        <item>Κακαρόντζας Γεώργιος</item>
+        <item>Καλογήρου Χάρης</item>
+        <item>Καραΐσκος Ζαφείριος</item>
+        <item>Καραπιδάκης Ευάγγελος</item>
+        <item>Καρέτσος Γεώργιος</item>
+        <item>Κατσίμπας Θεόδωρος</item>
+        <item>Καψούρας Ιωάννης</item>
+        <item>Κόκκινος Κωνσταντίνος</item>
+        <item>Κόκκορας Φώτης</item>
+        <item>Κόπανος Χρήστος</item>
+        <item>Κουτσιαρής Αριστοτέλης</item>
+        <item>Λεπενιώτου Αλεξάνδρα</item>
+        <item>Λιόλιος Νικόλαος</item>
+        <item>Λιόλιος Χαράλαμπος</item>
+        <item>Μαϊργιώτης Αντώνιος</item>
+        <item>Μάργαρης Αθανάσιος</item>
+        <item>Μπασδαβάνος Μαργαρίτης</item>
+        <item>Μπάτης Νικόλαος</item>
+        <item>Νεβράντζας Βάϊος - Γερμανός</item>
+        <item>Ξενάκης Αποστόλης</item>
+        <item>Παπακώστας Αρης</item>
+        <item>Πετρέλλης Νικόλαος</item>
+        <item>Σάββας Ηλίας</item>
+        <item>Σαμαράς Νικόλαος</item>
+        <item>Σοφός Φίλιππος</item>
+        <item>Στυλιανός Τηλέμαχος</item>
+        <item>Σωμαράς Χρήστος</item>
+        <item>Τσουκάτος Κωνσταντίνος</item>
+        <item>Χαϊκάλης Κωνσταντίνος</item>
+        <item>Χαρτώνας Χρυσάφης</item>
+        <item>Ψωμιάδης Κωνσταντίνος</item>
+    </string-array>
+
+    <integer-array name="indexes">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>9</item>
+        <item>10</item>
+        <item>14</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>27</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>11</item>
+        <item>13</item>
+        <item>12</item>
+        <item>16</item>
+        <item>17</item>
+        <item>19</item>
+        <item>15</item>
+        <item>21</item>
+        <item>23</item>
+        <item>25</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>40</item>
+    </integer-array>
+    <integer-array name="indexes_sorted">
+        <item>1</item>
+        <item>2</item>
+        <item>18</item>
+        <item>3</item>
+        <item>19</item>
+        <item>4</item>
+        <item>20</item>
+        <item>21</item>
+        <item>5</item>
+        <item>6</item>
+        <item>22</item>
+        <item>24</item>
+        <item>23</item>
+        <item>7</item>
+        <item>28</item>
+        <item>25</item>
+        <item>26</item>
+        <item>8</item>
+        <item>27</item>
+        <item>9</item>
+        <item>29</item>
+        <item>10</item>
+        <item>30</item>
+        <item>32</item>
+        <item>31</item>
+        <item>33</item>
+        <item>11</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>40</item>
+    </integer-array>
+
     <string-array name="Emails">
         <item>gadam@teilar.gr</item>
         <item>ventzas@teilar.gr</item>
         <item>vsvlachos@teilar.gr</item>
         <item>garani@teilar.gr</item>
         <item>iatrellis@teilar.gr</item>
-        <item>gkakaron@teilar.gr</item>    
+        <item>gkakaron@teilar.gr</item>
         <item>karetsos@teilar.gr</item>
         <item>fkokkoras@teilar.gr</item>
         <item>ariskout@teilar.gr</item>
@@ -151,14 +281,56 @@
         <item>swmaras@teilar.gr</item>
         <item>psomiadis@teilar.gr</item>
     </string-array>
+    <string-array name="Emails_sorted">
+        <item>gadam@teilar.gr</item>
+        <item>ventzas@teilar.gr</item>
+        <item>jv@teilar.gr</item>
+        <item>vsvlachos@teilar.gr</item>
+        <item>kantaras@teilar.gr</item>
+        <item>garani@teilar.gr</item>
+        <item>dervenisch@teilar.gr</item>
+        <item>zeimpekis@teilar.gr</item>
+        <item>iatrellis@teilar.gr</item>
+        <item>gkakaron@teilar.gr</item>
+        <item>harkal@teilar.gr</item>
+        <item>karaisko@teilar.gr</item>
+        <item>karapidakis@teilar.gr</item>
+        <item>karetsos@teilar.gr</item>
+        <item>katsibas@teilar.gr</item>
+        <item>kapsouras@teilar.gr</item>
+        <item>k_kokkinos@teilar.gr</item>
+        <item>fkokkoras@teilar.gr</item>
+        <item>kopanos@teilar.gr</item>
+        <item>ariskout@teilar.gr</item>
+        <item>lepeniotou@teilar.gr</item>
+        <item>nliolios@teilar.gr</item>
+        <item>cliolios@teilar.gr</item>
+        <item>mairgiotis@teilar.gr</item>
+        <item>amarg@teilar.gr</item>
+        <item>basdavanos@teilar.gr</item>
+        <item>batis@teilar.gr</item>
+        <item>germanos@teilar.gr</item>
+        <item>axenakis@teilar.gr</item>
+        <item>ap@teilar.gr</item>
+        <item>npetrellis@teilar.gr</item>
+        <item>savvas@teilar.gr</item>
+        <item>nsamaras@teilar.gr</item>
+        <item>fsof@teilar.gr</item>
+        <item>tilemaxos@teilar.gr</item>
+        <item>swmaras@teilar.gr</item>
+        <item>ktsouk@teilar.gr</item>
+        <item>kchaikalis@teilar.gr</item>
+        <item>hartonas@teilar.gr</item>
+        <item>psomiadis@teilar.gr</item>
+    </string-array>
 
-    <string name="appInfo">Επίσημη εφαρμογή για κινητά Android του τμήματος Πληροφορικής και Τηλεπικοινωνιών ΤΕΙ Λάρισας.
+    <string name="appInfo">Επίσημη εφαρμογή για κινητά Android του τμήματος Μηχανικών Πληροφορικής Τ.Ε. του ΤΕΙ Θεσσαλίας.
 					\n\nΗ εφαρμογή παρέχει  ανακοινώσεις, νέα, και άλλες πληροφορίες χρήσιμες για τους φοιτητές του τμήματος.Σε περίπτωση που φύγει η προστεθεί κάποιο μέλος στο εκπαιδευτικό προσωπικό και δεν γίνει αντιληπτό, στείλτε μου ένα email για να γίνει προσθήκη των στοιχείων του στις λίστες.
 					\n\nΓια να στείλετε τις εντυπώσεις/γνώμες/παρατηρήσεις σας ή ότι άλλο θεωρείτε χρήσιμο, πατήστε στο κουμπί Feedback!
-					\n\nΔημιουργός εφαρμογής: Νίκος Παρδάλης</string>
+					\n\nDeveloper: Νίκος Παρδάλης (Τ-2179)</string>
     <string name="DataFailureWarning">"Δεν υπάρχει διαθέσιμη σύνδεση δεδομένων.Παρακαλώ συνδεθείτε και ξαναπροσπαθείστε."</string>
     <string name="DownloadsDirectoryPath">"/sdcard/CST Connect Downloads/"</string>
-    <string name="plirofories_tmimatos">Το Τμήμα Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών του ΤΕΙ Λάρισας ιδρύθηκε με το Προεδρικό Διάταγμα 200/1999 (ΦΕΚ 179 06/09/99), με πρώτο εξάμηνο λειτουργίας το Φθινοπωρινό εξάμηνο του 1999, στα πλαίσια της ενέργειας «Διεύρυνση της Τριτοβάθμιας Εκπαίδευσης» του Επιχειρησιακού Προγράμματος Εκπαίδευσης και Αρχικής Επαγγελματικής Κατάρτισης του 2ου Κοινοτικού Πλαισίου Στήριξης (2ο ΚΠΣ).
+    <string name="plirofories_tmimatos">To Τμήμα Μηχανικών Πληροφορικής T.E. (πρώην Τμήμα Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών) ιδρύθηκε με το Προεδρικό Διάταγμα 200/1999 (ΦΕΚ 179 06/09/99), με πρώτο εξάμηνο λειτουργίας το Φθινοπωρινό εξάμηνο του 1999, στα πλαίσια της ενέργειας «Διεύρυνση της Τριτοβάθμιας Εκπαίδευσης» του Επιχειρησιακού Προγράμματος Εκπαίδευσης και Αρχικής Επαγγελματικής Κατάρτισης του 2ου Κοινοτικού Πλαισίου Στήριξης (2ο ΚΠΣ).
     \n\nΤο Τμήμα Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών προχώρησε σε αναβάθμιση και βελτίωση του προγράμματος σπουδών με την υποστήριξη περισσότερων μαθημάτων επιλογής υποχρεωτικών και την online υποστήριξη της εκπαιδευτικής διαδικασίας (e-learning) στα πλαίσια του έργου του Επιχειρησιακού Προγράμματος Εκπαίδευσης και Αρχικής Επαγγελματικής Κατάρτισης «Ενίσχυση Σπουδών Πληροφορικής στο ΤΕΙ Λάρισας» που υλοποιείται με τη συγχρηματοδότηση της Ευρωπαϊκής Ένωσης (Ευρωπαϊκό Κοινωνικό Ταμείο) και Εθνικούς πόρους.
     \n\nΜε την ολοκλήρωση των σπουδών τους οι Πτυχιούχοι του Τμήματος Τεχνολογίας Πληροφορικής και Τηλεπικοινωνιών αποκτούν τις απαραίτητες, σύμφωνα με διεθνή πρότυπα, θεωρητικές και τεχνολογικές γνώσεις και δεξιότητες ώστε να μπορούν, με επιτυχία στις ιδιαίτερα ανταγωνιστικές συνθήκες του αντικειμένου τους:
     \n\n1. να επιδιώξουν Μεταπτυχιακές Σπουδές σε Τριτοβάθμια Εκπαιδευτικά Ιδρύματα του Εσωτερικού ή Εξωτερικού,

@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="list_padding">10dp</dimen>
+    <integer name="num_cols">1</integer>
+
+    <!-- sliding menu -->
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">100dp</dimen>
+
+</resources>

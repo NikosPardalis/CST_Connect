@@ -8,6 +8,7 @@
         <item>Πλατφόρμα chronos</item>
         <item>Webmail</item>
         <item>Eudoxus</item>
+        <item>ΔΑΣΤΑ ΤΕΙ Λάρισας</item>
         <item>Ιστοσελίδα Βιβλιοθήκης</item>
         <item>StudentGuru Larisas</item>
         <item>LinuxTeam</item>
@@ -27,6 +28,7 @@
         <item>http://cronos.teilar.gr/</item>
         <item>https://myweb.teilar.gr/src/login.php</item>
         <item>http://eudoxus.gr/</item>
+        <item>http://dasta.teilar.gr/</item>
         <item>http://library.teilar.gr/</item>
         <item>http://studentguru.gr/academics/communities/b/larissa/p/sglteam.aspx</item>
         <item>http://linuxteam.teilar.gr/</item>
@@ -46,6 +48,7 @@
         <item>com.cst.connect:drawable/chronos</item>
         <item>com.cst.connect:drawable/webmail</item>
         <item>com.cst.connect:drawable/eudoxus</item>
+        <item>com.cst.connect:drawable/noimage</item>
         <item>com.cst.connect:drawable/library</item>
         <item>com.cst.connect:drawable/student_guru</item>
         <item>com.cst.connect:drawable/linuxteam</item>
@@ -65,6 +68,7 @@
         <item>Πλατφόρμα chronos</item>
         <item>Webmail</item>
         <item>Eudoxus</item>
+        <item>Δομή Απασχόλησης και ΣΤΑδιοδρομίας</item>
         <item>Ιστοσελίδα Βιβλιοθήκης</item>
         <item>StudentGuru Larisas</item>
         <item>LinuxTeam</item>

@@ -2,18 +2,18 @@
 <resources>
 
     <string-array name="monimoi_names">
-        <item>Βέντζας Δημήτριος (Τομεάρχης)</item>
-        <item>Αδάμ Γεώργιος (Προϊστάμενος)</item>
+        <item>Βέντζας Δημήτριος (Δ/ντης Α\' τομέα)</item>
+        <item>Αδάμ Γεώργιος</item>
         <item>Πετρέλλης Νικόλαος</item>
         <item>Κακαρόντζας Γεώργιος</item>
-        <item>Λιόλιος Νικόλαος</item>
-        <item>Χαρτώνας Χρυσάφης</item>     
-        <item>Καρέτσος Γεώργιος</item>
+        <item>Λιόλιος Νικόλαος (Δ/ντης B\' τομέα)</item>
+        <item>Χαρτώνας Χρυσάφης (Πρόεδρος Τμήματος) </item>     
+        <item>Καρέτσος Γεώργιος (Αναπληρωτής Πρόεδρος Τμήματος)</item>
         <item>Γκαράνη Γεωργία</item>
         <item>Σάββας Ηλίας</item>
         <item>Κόκκορας Φώτης</item>
-        <item>Μπάτης Νικόλαος</item>
-        <item>Σαμαράς Νικόλαος (Τομεάρχης)</item>
+        <item>Μπάτης Νικόλαος (Μέλος Συμβουλίου ΤΕΙ/Λ) </item>
+        <item>Σαμαράς Νικόλαος (Δ/ντης Γ\' τομέα) </item>
         <item>Τσουκάτος Κωνσταντίνος</item>
         <item>Βλάχος Βασίλειος</item>
         <item>Ιατρέλλης Όμηρος</item>
@@ -89,9 +89,9 @@
         <item>com.cst.connect:drawable/ventzas</item>
         <item>com.cst.connect:drawable/adam</item>
         <item>com.cst.connect:drawable/petrelis</item>
-        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/kakarontzas</item>
         <item>com.cst.connect:drawable/liolios</item>
-        <item>com.cst.connect:drawable/noimage</item>   
+        <item>com.cst.connect:drawable/xartonas</item>   
         <item>com.cst.connect:drawable/karetsos</item>
         <item>com.cst.connect:drawable/garani</item>
         <item>com.cst.connect:drawable/savvas</item>
@@ -101,7 +101,7 @@
         <item>com.cst.connect:drawable/noimage</item>
         <item>com.cst.connect:drawable/vlaxos</item>
         <item>com.cst.connect:drawable/iatrellis</item>
-        <item>com.cst.connect:drawable/noimage</item>
+        <item>com.cst.connect:drawable/xaikalis</item>
         <item>com.cst.connect:drawable/noimage</item>
         <item>com.cst.connect:drawable/noimage</item>
         <item>com.cst.connect:drawable/noimage</item>

@@ -8,10 +8,12 @@
         android:title="Download Folder"
          android:showAsAction="ifRoom"/>
     -->
+    
     <item
         android:id="@+id/refresh"
+        android:alphabeticShortcut="r"
         android:icon="@drawable/refresh"
-        android:showAsAction="ifRoom"
-        android:title="Refresh feed"/>
+        android:showAsAction="always"
+        android:title="Refresh"/>
 
 </menu>
